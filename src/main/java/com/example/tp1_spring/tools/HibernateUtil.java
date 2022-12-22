@@ -1,5 +1,5 @@
 package com.example.tp1_spring.tools;
-
+//préparer la gestion des sessions
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
