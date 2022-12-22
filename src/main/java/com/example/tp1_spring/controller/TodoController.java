@@ -58,6 +58,7 @@ public class TodoController {
             exisTodo.setTitre(todo.getTitre());
             exisTodo.setDescription(todo.getDescription());
             exisTodo.setDate(todo.getDate());
+            exisTodo.setEtat(!todo.isEtat());
             if(todoService.update(exisTodo)) {
                 return exisTodo;
             }
