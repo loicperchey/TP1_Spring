@@ -1,5 +1,8 @@
 package com.example.tp1_spring.interfaces;
 
+import com.example.tp1_spring.entity.Todo;
+
+import java.util.Arrays;
 import java.util.List;
 
 public interface ITodoService<T> {
@@ -10,8 +13,10 @@ public interface ITodoService<T> {
 
     boolean delete (T s);
 
+
     T findById (int id);
 
     List<T> findAll();
+
 
 }
