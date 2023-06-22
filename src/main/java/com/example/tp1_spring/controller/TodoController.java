@@ -36,7 +36,7 @@ public class TodoController {
         return todoService.findById(id);
     }
 
-    @GetMapping("/gettodo")
+    @GetMapping("/gettodo/{id}")
     public Todo getProduitByParams(@RequestParam("id") Integer id){
         return todoService.findById(id);
     }
